@@ -1,0 +1,639 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background: rgb(221, 214, 214); */
+    background: white;
+}
+
+body {
+    background: rgb(238, 234, 234);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.form-wrapper {
+    margin-top: 30px;
+    height: 90vh;
+    width: 100%;
+}
+
+.navBar {
+    margin-top: 30px;
+    height: 90vh;
+    width: 100%;
+}
+
+header {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header img {
+    margin-left: 135px;
+
+}
+
+header ul {
+    margin-left: -130px;
+}
+
+.text-wrapper {
+    margin-top: 70px;
+    margin-left: 135px;
+}
+
+form {
+    margin-left: 135px;
+    margin-top: 20px;
+}
+
+label {
+    color: rgb(153, 144, 144);
+    font-size: 22px;
+}
+
+input {
+    background-color: rgb(240, 229, 229);
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 6vh;
+    width: 423px;
+    padding: 10px;
+    font-size: 22px;
+    border: none;
+    outline: none;
+}
+
+::placeholder {
+    color: rgb(204, 197, 197);
+}
+
+.big-btn {
+    background: black;
+    color: white;
+    border: black;
+    outline: none;
+    width: 423px;
+    height: 6vh;
+    margin-top: 22px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+.main {
+    height: 102.9vh;
+    width: 47%;
+    background: rgb(226, 221, 221);
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: -24px;
+    z-index: 1;
+}
+
+.childrens {
+    position: absolute;
+    bottom: 180px;
+    width: 40%;
+    background: rgb(226, 221, 221);
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 79px;
+}
+
+.main p {
+    color: black;
+    background: rgb(226, 221, 221);
+}
+
+.main img,
+.main span {
+    background: rgb(226, 221, 221);
+    position: absolute;
+}
+
+.main span {
+    font-size: 16px;
+    margin-left: 52px;
+}
+
+.pro {
+    margin-top: -10px;
+    color: rgb(172, 169, 169);
+}
+
+
+/* @media screen and (max-width: 896px) {
+
+    input{
+        width: 323px;
+        margin-left: -90px;
+    }
+    .main{
+        display: none;
+    }
+    .big-btn{
+        margin-left: -50px;
+        width: 323px;
+    }
+} */
+
+
+@media screen and (max-width: 889px) {
+
+    input {
+        width: 323px;
+        margin-left: -100px;
+    }
+
+    .main {
+        display: none;
+    }
+
+    .big-btn {
+        margin-left: -53px;
+        width: 323px;
+    }
+
+    .text-wrapper {
+        font-size: 10px;
+        margin-left: 35px;
+        width: 50%;
+    }
+
+    label {
+        margin-left: -97px;
+    }
+
+    header img {
+        margin-left: 33px;
+    }
+
+    header ul {
+        margin-left: -34px;
+    }
+
+    .moda {
+        text-align: center;
+    }
+}
+
+/* navBar for my campground styling */
+.navBar img {
+    margin-left: 210px;
+}
+
+.navBar .links {
+    margin-top: -12px;
+}
+
+.navBar ul {
+    display: flex;
+    flex: 1;
+    margin-left: 1100px;
+    margin-top: -30px;
+}
+
+
+.containers {
+    position: absolute;
+    top: 92px;
+    width: 70%;
+    height: 30vh;
+    background: rgb(236, 236, 241);
+    margin-left: 221px;
+}
+
+.babies {
+    /*  */
+    background-color: rgb(236, 236, 241);
+    margin-top: 22px;
+    left: -132px;
+}
+
+.babies .p {
+    background: rgb(236, 236, 241);
+    font-size: 25px;
+    margin-left: 32px;
+    color: black;
+    font-weight: bold;
+}
+
+.babies span {
+    background: rgb(236, 236, 241);
+    margin-left: 32px;
+}
+
+/* .view{
+    position: absolute;
+    left: px;
+    margin-left: 76px; */
+
+
+.containers input {
+    background: white;
+    margin-left: 28px;
+    width: 25%;
+    border: rgb(94, 92, 92);
+    outline: rgb(94, 92, 92);
+    padding-left: 40px;
+}
+
+.containers .search {
+    position: absolute;
+    background: #fff;
+    margin-left: 42px;
+    margin-top: 23px;
+}
+
+.containers button {
+    background: black;
+    color: white;
+    height: 6.2vh;
+    margin-left: 6px;
+    width: 72px;
+    border-radius: 5px;
+    margin-top: 2px;
+}
+
+/* my images for the campground */
+
+.my-images {
+    position: absolute;
+    top: 316px;
+}
+
+.my-images img {
+    margin-top: 12px;
+    width: 224px;
+    margin-left: 11px;
+
+}
+
+
+.my-images .border {
+    border: 2px solid rgb(209, 204, 204);
+    width: 250px;
+    height: 40vh;
+    position: absolute;
+    margin-left: 221px;
+    border-radius: 5px;
+}
+
+.my-images .border p {
+    color: black;
+    margin-left: 12px;
+    font-weight: bold;
+}
+
+.my-images .border span {
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 12px;
+
+    font-size: 12px;
+}
+
+.my-images .border button {
+    color: black;
+    background: white;
+    border: 1px solid grey;
+    width: 90%;
+    height: 5vh;
+    margin-left: 12px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.my-images .border2 {
+    border: 2px solid rgb(209, 204, 204);
+    width: 250px;
+    height: 40vh;
+    position: absolute;
+    margin-left: 921px;
+    border-radius: 5px;
+}
+
+.my-images .border2 p {
+    color: black;
+    margin-left: 12px;
+    font-weight: bold;
+}
+
+.my-images .border2 span {
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 12px;
+
+    font-size: 12px;
+}
+
+.my-images .border2 button {
+    color: black;
+    background: white;
+    border: 1px solid grey;
+    width: 90%;
+    height: 5vh;
+    margin-left: 12px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.my-images .border3 {
+    border: 2px solid rgb(209, 204, 204);
+    width: 250px;
+    height: 40vh;
+    position: absolute;
+    margin-left: 561px;
+    border-radius: 5px;
+}
+
+.my-images .border3 p {
+    color: black;
+    margin-left: 12px;
+    font-weight: bold;
+}
+
+.my-images .border3 span {
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 12px;
+
+    font-size: 12px;
+}
+
+.my-images .border3 button {
+    color: black;
+    background: white;
+    border: 1px solid grey;
+    width: 90%;
+    height: 5vh;
+    margin-left: 12px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+
+.my-images .border4 {
+    border: 2px solid rgb(209, 204, 204);
+    width: 250px;
+    height: 39vh;
+    position: absolute;
+    margin-left: 221px;
+    margin-top: 311px;
+    border-radius: 5px;
+}
+
+.my-images .border4 p {
+    color: black;
+    margin-left: 12px;
+    font-weight: bold;
+}
+
+.my-images .border4 span {
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 12px;
+
+    font-size: 12px;
+}
+
+.my-images .border4 button {
+    color: black;
+    background: white;
+    border: 1px solid grey;
+    width: 90%;
+    height: 5vh;
+    margin-left: 12px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.my-images .border5 {
+    border: 2px solid rgb(209, 204, 204);
+    width: 250px;
+    height: 40vh;
+    position: absolute;
+    margin-left: 921px;
+    margin-top: 311px;
+    border-radius: 5px;
+}
+
+.my-images .border5 p {
+    color: black;
+    margin-left: 12px;
+    font-weight: bold;
+}
+
+.my-images .border5 span {
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 12px;
+
+    font-size: 12px;
+}
+
+.my-images .border5 button {
+    color: black;
+    background: white;
+    border: 1px solid grey;
+    width: 90%;
+    height: 5vh;
+    margin-left: 12px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.my-images .border6 {
+    border: 2px solid rgb(209, 204, 204);
+    width: 250px;
+    height: 38vh;
+    margin-top: 321px;
+    position: absolute;
+    margin-left: 561px;
+    border-radius: 5px;
+}
+
+.my-images .border6 p {
+    color: black;
+    margin-left: 12px;
+    font-weight: bold;
+}
+
+.my-images .border6 span {
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 12px;
+
+    font-size: 12px;
+}
+
+.my-images .border6 button {
+    color: black;
+    background: white;
+    border: 1px solid grey;
+    width: 90%;
+    height: 5vh;
+    margin-left: 12px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+button{
+    cursor: pointer;
+}
+
+.home{
+    margin-left: 165px;
+    margin-top: 42px;
+}
+
+.home span{
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.home button{
+    background: black;
+    color: #fff;
+    width: 235px;
+    height: 6vh;
+    border-radius: 5px;
+}
+
+.hero{
+    margin-left: 687.2px;
+    margin-top: -497px;
+    position: relative;
+}
+
+.hero img{
+    height: 100vh;
+    width: 100%;
+}
+
+.partners{
+    position: absolute;
+    bottom: 108px;
+    margin-left: 165px;
+}
+
+.partners p{
+    position: absolute;
+}
+
+/*Add campground styling and comment*/
+
+.body{
+    text-align: center;
+    margin-top: 45px;
+}
+
+.body h4{
+    font-weight: bold;
+    /* font-size: 1.5em; */
+    margin-left: -60px;
+}
+
+.body label{
+    margin-left: -300px;
+    font-size: 13px;
+    color: gray;
+}
+
+.body input{
+    font-size: 17px;
+}
+
+textarea{
+    width: 421px;
+    border-radius: 6px;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: rgb(240, 229, 229);
+    border: none;
+    outline: none;
+}
+
+.body button{
+    width: 421px;
+    margin-top: 8px;
+    height: 5vh;
+    border-radius: 5px;
+    color: white;
+    background: black;
+    cursor: pointer;
+}
+
+.header {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.header img {
+    margin-left: 135px;
+
+}
+
+.header ul {
+    margin-left: -130px;
+    display: flex;
+}
+
+.downLogo{
+    margin-top: 180px;
+    margin-left: 135px;
+}
+
+.map{
+    border: 1px solid rgb(212, 208, 208);
+    width: 200px;
+    margin-left: 300px;
+    margin-top: 40px;
+    height: 38vh;
+}
+
+.map img{
+    margin-left: 25px;
+    margin-top: 10px;
+    width: 150px;
+}
+
+.mountUlap{
+    margin-left: 750px;
+    margin-top: -268px;
+    border: 1px solid rgb(194, 190, 190);
+    width: 450px;
+    height: 58vh;
+}
+
+.mountUlap img{
+    width: 350px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.mountUlap .mount{
+    margin-left: 30px;
+    width: 60%;
+    font-size: 13px;
+
+}
+
+.my-btn{
+    background: black;
+    color: #fff;
+    width: 125px;
+    height: 5vh;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 1070px;
+}
